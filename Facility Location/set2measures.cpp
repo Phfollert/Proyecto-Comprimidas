@@ -21,7 +21,7 @@ int main(){
   idx_type a,b;
   int size = 1024;
   vector<tuple<idx_type,idx_type> > edges;
-  ifstream file( "set1.txt" );
+  ifstream file( "set2.txt" );
   vector<double> v1(10);
   vector<double> v2(10);
   vector<double> v3(10);
