@@ -1,0 +1,3 @@
+#!/bin/bash
+g++ -std=c++11 -O3 -DNDEBUG -I ~/include -L ~/lib closest_test.cpp -o ctest -lsdsl -ldivsufsort -ldivsufsort64
+./ctest

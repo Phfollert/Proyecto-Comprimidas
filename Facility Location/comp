@@ -1,0 +1,4 @@
+#!/bin/bash
+g++ -std=c++11 -O3 -DNDEBUG -I ~/include -L ~/lib set1measures.cpp -o set1m -lsdsl -ldivsufsort -ldivsufsort64
+g++ -std=c++11 -O3 -DNDEBUG -I ~/include -L ~/lib set2measures.cpp -o set2m -lsdsl -ldivsufsort -ldivsufsort64
+g++ -std=c++11 -O3 -DNDEBUG -I ~/include -L ~/lib set1measures_inf.cpp -o set1minf -lsdsl -ldivsufsort -ldivsufsort64
