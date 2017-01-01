@@ -21,7 +21,7 @@ int main(){
   idx_type a,b;
   int size = 1024;
   vector<tuple<idx_type,idx_type> > edges;
-  ifstream file( "set1.txt" );
+  ifstream file( "set2.txt" );
   vector<double> v1(10);
   vector<double> v2(10);
   vector<double> v3(10);
@@ -36,9 +36,9 @@ int main(){
   error2.open("error2.txt");
   error3.open("error3.txt");
   error4.open("error4.txt");
-  int query = 40401;
+  int query = 5000;
   int times = 10;
-  int howmanyclosest34 = 40401;
+  int howmanyclosest34 = 5000;
   long long lat = 300;
   long long lon = 300;
   //long long lat = 1;
